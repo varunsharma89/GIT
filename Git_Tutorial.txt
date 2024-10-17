@@ -99,3 +99,6 @@ owner can review the merge/pull request and take action.
  
  ++ gitignore
  create a file with list of files to ignore the commit.
+
+ ++ git clean
+ 
