@@ -72,5 +72,5 @@ Version of the local Repository saved on cloud or remote server.
 ++ GITHUB ++
 Remote Repository cloud hosting for your codes/files/data.
 
-
+# git remote -v                         // to check remote repo
 
