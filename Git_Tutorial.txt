@@ -79,6 +79,3 @@ Remote Repository cloud hosting for your codes/files/data.
 # git clone <http>                      // to clone repo from GITHUB
 # git pull                              // to pull updated version of repo from GITHUB
 
-
-
-
