@@ -80,3 +80,14 @@ Remote Repository cloud hosting for your codes/files/data.
 # git pull                              // to pull updated version of repo from GITHUB
 
 ++ Branching & Merging
+Branching used to enhance the code without effecting the original code or branch until tested.
+After testing, the branches can be merge into main code.
+
+# git branch                            // To check current branches.
+# git branch design                     // To create new branch
+# git checkout design                   // switched or change to another branch
+After updating code in 'design' branch, it can be merge to 'main' branch.
+# git checkout main 
+# git merge design                      // merge 'design' into 'main' branch
+
+++ Merge conflicts 
