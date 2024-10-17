@@ -92,3 +92,5 @@ After updating code in 'design' branch, it can be merge to 'main' branch.
 
 ++ Merge conflicts 
 When multiple branches wants to merge with 'main' bracnh, only one is accepted.
+
+++ Fork & merge
