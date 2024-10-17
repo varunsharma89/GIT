@@ -94,3 +94,8 @@ After updating code in 'design' branch, it can be merge to 'main' branch.
 When multiple branches wants to merge with 'main' bracnh, only one is accepted.
 
 ++ Fork & merge
+another user can fork (copy) the repo to enhance the codes and request (push) the update request.
+owner can review the merge/pull request and take action.
+ 
+ ++ gitignore
+ create a file with list of files to ignore the commit.
