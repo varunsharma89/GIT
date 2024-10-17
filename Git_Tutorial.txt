@@ -90,4 +90,3 @@ After updating code in 'design' branch, it can be merge to 'main' branch.
 # git checkout main 
 # git merge design                      // merge 'design' into 'main' branch
 
-++ Merge conflicts 
