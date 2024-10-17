@@ -73,4 +73,12 @@ Version of the local Repository saved on cloud or remote server.
 Remote Repository cloud hosting for your codes/files/data.
 
 # git remote -v                         // to check remote repo
+# git push                              // To push data to remote repo after local commit
+
+++ Cloning 
+# git clone <http>                      // to clone repo from GITHUB
+# git pull                              // to pull updated version of repo from GITHUB
+
+
+
 
