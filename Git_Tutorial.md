@@ -1,29 +1,29 @@
 
-####  GIT & GITHUB   #####
-++ What is GIT ?
+# GIT & GITHUB
+## What is GIT ?
 - Distributed version control system (VCS)
 - Control versions of files.
 
-++ Features ?
+## Features ?
 - Tracking changes of files.
 - Backup and restore: can revert back to previous changes.
 - collaboration : multiple people work together
 - branching & merging
 
-++ Instllation
+## Instllation
 - default on mac/linux
 - using with VS code
 
-++ config user
-# git config --global user.name "Varun Sharma"
-# git config --global user.email "er.varunsharma89@gmail.com"
-# git config --list
+## config user
+`# git config --global user.name "Varun Sharma"`
+`# git config --global user.email "er.varunsharma89@gmail.com"`
+`# git config --list`
 credential.helper=osxkeychain
 init.defaultbranch=main
 user.name=Varun Sharma
 user.email=er.varunsharma89@gmail.com
 
-++ Creating Repository.
+## Creating Repository.
 - Local directory to track is repo.
 # git init              // initiate the current directory as repo.
 # git status            // check the current status 
@@ -107,5 +107,5 @@ owner can review the merge/pull request and take action.
  # git tag -a lat_verison -m "latest version"
 
 
- ##### GIT LAB #####
+ # GITLAB
  
