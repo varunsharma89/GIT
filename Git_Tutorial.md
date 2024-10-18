@@ -10,18 +10,20 @@
 - collaboration : multiple people work together
 - branching & merging
 
-## Instllation
+## Installation
 - default on mac/linux
 - using with VS code
 
 ## config user
-`# git config --global user.name "Varun Sharma"`
-`# git config --global user.email "er.varunsharma89@gmail.com"`
-`# git config --list`
+```
+# git config --global user.name "Varun Sharma"
+# git config --global user.email "er.varunsharma89@gmail.com"
+# git config --list
 credential.helper=osxkeychain
 init.defaultbranch=main
 user.name=Varun Sharma
 user.email=er.varunsharma89@gmail.com
+```
 
 ## Creating Repository.
 - Local directory to track is repo.
