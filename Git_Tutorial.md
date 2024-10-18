@@ -26,12 +26,15 @@ user.email=er.varunsharma89@gmail.com
 ```
 
 ## Creating Repository.
-- Local directory to track is repo.
-# git init              // initiate the current directory as repo.
-# git status            // check the current status 
+- Directory where all files placed is called repository.
+- Any Local directory can be converted into repo.
+```
+# git init                          // initiate the current directory as repo.
+# git status                        // check the current status 
 # git add <file>
 # git commit -m "description"       
-# git log               // to see logging
+# git log                           // to see logging
+```
 
 What is GIT commit ?
 - captures snapshot of project's current stage. (ready state to save state)
