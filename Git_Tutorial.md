@@ -83,6 +83,7 @@ user.email=er.varunsharma89@gmail.com
 # GITHUB
 - Remote Repository cloud hosting for your codes/files/data.
 ```
+# git remote add origin <git repo url>  // to link current directory to remote repo.r
 # git remote -v                         // to check remote repo
 # git push                              // To push data to remote repo after local commit
 ```
@@ -126,4 +127,10 @@ After updating code in 'design' branch, it can be merge to 'main' branch.
 ```
 
 # GITLAB
- 
+- Tool available online within GIT for CI/CD pipelines
+- CI : Continous integration is method/process of Build, Test & Merge the codes in repos.
+- CD : Continous Delivery is method to automatic release to repositroy.
+- CD : Continous Deployment is automatic deployment to production.
+
+## GITLAB Setup
+
