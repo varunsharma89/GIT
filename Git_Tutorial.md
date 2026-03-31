@@ -86,6 +86,7 @@ user.email=er.varunsharma89@gmail.com
 # git remote add origin <git repo url>  // to link current directory to remote repo.r
 # git remote -v                         // to check remote repo
 # git push                              // To push data to remote repo after local commit
+# git remote set-url origin  <git repo url>      // to set repo url 
 ```
 ## Cloning 
 ```
@@ -104,6 +105,14 @@ user.email=er.varunsharma89@gmail.com
 After updating code in 'design' branch, it can be merge to 'main' branch.
 # git checkout main 
 # git merge design                      // merge 'design' into 'main' branch
+
+or
+request merge request to origin.
+# git add .
+# git commit -m "<comment>"
+# git push origin <your  branch>  then it will create link to request merge request
+or do command line merge request
+# git push -o merge_request.create origin <your  branch>
 ```
 
 ## Merge conflicts 
@@ -134,3 +143,17 @@ After updating code in 'design' branch, it can be merge to 'main' branch.
 
 ## GITLAB Setup
 
+
+## Some troubleshooting commands
+```bash
+# gitlab-ctl reconfigure    # To reconfigure out of sync git.
+# git ls-remote git@midwayr2-git.rcc.uchicago.edu:rcc-systems/ansible-rcc_config.git  # To verify remote repo pull works.
+
+```
+
+
+
+## Temporary bypass credes
+```bash
+# git config --global credential.helper "cache --timeout=3600"
+```
